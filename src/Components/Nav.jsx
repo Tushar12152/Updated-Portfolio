@@ -1,6 +1,7 @@
 import { Link,  } from "react-router-dom";
 import logo from '../assets/logo.png'
 import Banner from "./Banner";
+import About from "./About";
 
 const Nav = () => {
 
@@ -64,7 +65,7 @@ const Nav = () => {
          <Banner/> 
       </section>
       <section id="about" className="">
-        <h1 className="text-4xl">About Section</h1>
+       <About/>
       </section>
       <section id="skill" className="">
         <h1 className="text-4xl">Skill</h1>

@@ -1,10 +1,12 @@
 import { TypeAnimation } from "react-type-animation";
 import banner from "../assets/Banner.png"
 import { MdOutlineFileDownload } from "react-icons/md";
-import { DiGithub } from "react-icons/di";
+import { FaFacebook } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import { FiLinkedin } from "react-icons/fi";
 const Banner = () => {
   return (
-    <div className="  h-screen pt-28">
+    <div className="  py-28">
       <div className=" lg:flex  gap-6 justify-between ">
 
 
@@ -33,9 +35,13 @@ const Banner = () => {
 
           <p className="pt-10 ">Specializing in MongoDB, Express.js, React.js, and Node.js, I craft <br /> seamless, interactive web experiences.</p>
 
-          <div className="pt-10 flex justify-center ">
+          
+
+          <div className="pt-10  flex justify-start items-center gap-3 ">
                <button className="flex justify-center items-center bg-gradient-to-r from-[#5F15FD] to-[#816CFF] p-2 rounded-lg"><MdOutlineFileDownload /> Download CV</button>
-               <a className="text-4xl" href="https://github.com/Tushar12152"><DiGithub/></a>
+               <a className="text-2xl" href="https://github.com/Tushar12152"><BsGithub/></a>
+               <a className="text-2xl" href="https://www.linkedin.com/in/md-isme-ajam-tushar-038504291/"><FiLinkedin/></a>
+               <a className="text-2xl" href="https://www.facebook.com/TusharImran03"><FaFacebook/></a>
           </div>
 
         </div>
@@ -44,7 +50,7 @@ const Banner = () => {
           <div className="">
             <div className="relative">
               {/* Rotating Ring */}
-              <div className="absolute inset-0 w-[400px]  h-[400px] rounded-full animate-spin-slow">
+              <div className="absolute inset-0 w-[400px] hidden lg:block  h-[400px] rounded-full animate-spin-slow">
                 {/* Decorative Elements */}
                 {/* Top Circle */}
                 <div className="absolute w-6 h-6 bg-orange-500 rounded-full top-2 left-1/2 transform -translate-x-1/2"></div>
@@ -57,7 +63,7 @@ const Banner = () => {
               </div>
 
               {/* Profile Image */}
-              <div className="relative w-[380px]  h-[380px] rounded-full overflow-hidden border-8 border-purple-600 bg-gradient-to-r from-purple-600 to-purple-900">
+              <div className="relative lg:w-[380px] w-[280px]  lg:h-[380px] h-[280px] rounded-full mt-10 lg:mt-0 overflow-hidden border-8 border-purple-600 bg-gradient-to-r from-purple-600 to-purple-900">
                 <img
                   src={banner}
                   alt="Profile"
