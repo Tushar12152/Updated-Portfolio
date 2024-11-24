@@ -1,0 +1,72 @@
+/* Container Styling */
+.skills-slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    overflow: hidden; /* Hides overflowing content */
+  }
+  
+  .slider-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Slider Wrapper */
+  .slider-wrapper {
+    position: relative;
+    width: 100%; /* Full width of the container */
+    overflow: hidden;
+  }
+  
+  .slider-content {
+    display: flex;
+    justify-content: center;
+    animation: bounce-center 20s ease-in-out infinite; /* Center-to-edges animation */
+    gap: 20px; /* Spacing between items */
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px; /* Fixed width for each skill */
+    transition: transform 0.6s ease; /* Smooth hover effect */
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+  
+  .skill-name {
+    color: white;
+    font-size: 0.875rem;
+  }
+  
+  /* Keyframes for Center-to-Edges Animation */
+  @keyframes bounce-center {
+    0% {
+      transform: translateX(0); /* Start at the center */
+    }
+    25% {
+      transform: translateX(-50%); /* Move to the left */
+    }
+    50% {
+      transform: translateX(0); /* Return to the center */
+    }
+    75% {
+      transform: translateX(50%); /* Move to the right */
+    }
+    100% {
+      transform: translateX(0); /* Back to the center */
+    }
+  }
+  

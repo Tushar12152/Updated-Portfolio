@@ -35,13 +35,13 @@ const Banner = () => {
 
           <p className="pt-10 ">Specializing in MongoDB, Express.js, React.js, and Node.js, I craft <br /> seamless, interactive web experiences.</p>
 
-          
+
 
           <div className="pt-10  flex justify-start items-center gap-3 ">
-               <button className="flex justify-center items-center bg-gradient-to-r from-[#5F15FD] to-[#816CFF] p-2 rounded-lg"><MdOutlineFileDownload /> Download CV</button>
-               <a className="text-2xl" href="https://github.com/Tushar12152"><BsGithub/></a>
-               <a className="text-2xl" href="https://www.linkedin.com/in/md-isme-ajam-tushar-038504291/"><FiLinkedin/></a>
-               <a className="text-2xl" href="https://www.facebook.com/TusharImran03"><FaFacebook/></a>
+            <button className="flex justify-center items-center bg-gradient-to-r from-[#5F15FD] to-[#816CFF] p-2 rounded-lg"><MdOutlineFileDownload /> Download CV</button>
+            <a className="text-2xl" href="https://github.com/Tushar12152"><BsGithub /></a>
+            <a className="text-2xl" href="https://www.linkedin.com/in/md-isme-ajam-tushar-038504291/"><FiLinkedin /></a>
+            <a className="text-2xl" href="https://www.facebook.com/TusharImran03"><FaFacebook /></a>
           </div>
 
         </div>

@@ -2,6 +2,7 @@ import { Link,  } from "react-router-dom";
 import logo from '../assets/logo.png'
 import Banner from "./Banner";
 import About from "./About";
+import Skill from "./Skill";
 
 const Nav = () => {
 
@@ -68,7 +69,7 @@ const Nav = () => {
        <About/>
       </section>
       <section id="skill" className="">
-        <h1 className="text-4xl">Skill</h1>
+         <Skill/>
       </section>
       <section id="service" className="">
         <h1 className="text-4xl">Services Section</h1>
