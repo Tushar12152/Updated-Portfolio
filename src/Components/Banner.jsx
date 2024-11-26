@@ -6,13 +6,13 @@ import { BsGithub } from "react-icons/bs";
 import { FiLinkedin } from "react-icons/fi";
 const Banner = () => {
   return (
-    <div className="  py-28">
+    <div className=" pt-[200px] pb-[107px] bg-[url('https://i.ibb.co.com/7jtpvhV/Frame.png')]">
       <div className=" lg:flex  gap-6 justify-between ">
 
 
         <div className="text-white">
-          <h2 className="font-semibold text-3xl pb-4">Hello, I am</h2>
-          <h1 className="text-5xl font-bold mb-10">Md. <span className="text-[#FD7615]">Isme Ajam </span> <br />
+          <h2 className="font-semibold text-[32px] pb-4">Hello, I am</h2>
+          <h1 className="text-[80px] font-bold mb-10">Md. <span className="text-[#FD7615]">Isme Ajam </span> <br />
             (Tushar)</h1>
 
           <TypeAnimation
@@ -33,7 +33,7 @@ const Banner = () => {
             repeat={Infinity}
           />
 
-          <p className="pt-10 ">Specializing in MongoDB, Express.js, React.js, and Node.js, I craft <br /> seamless, interactive web experiences.</p>
+          <p className="pt-10 text-[18px]">Specializing in MongoDB, Express.js, React.js, and Node.js, I craft <br /> seamless, interactive web experiences.</p>
 
 
 
@@ -63,7 +63,7 @@ const Banner = () => {
               </div>
 
               {/* Profile Image */}
-              <div className="relative lg:w-[380px] w-[280px]  lg:h-[380px] h-[280px] rounded-full mt-10 lg:mt-0 overflow-hidden border-8 border-purple-600 bg-gradient-to-r from-purple-600 to-purple-900">
+              <div className="relative lg:w-[521.552px] w-[280px]  lg:h-[514px] h-[280px] rounded-full mt-10 lg:mt-0 overflow-hidden border-8 border-purple-600 bg-gradient-to-r from-purple-600 to-purple-900">
                 <img
                   src={banner}
                   alt="Profile"

@@ -3,6 +3,8 @@ import logo from '../assets/logo.png'
 import Banner from "./Banner";
 import About from "./About";
 import Skill from "./Skill";
+import Services from "./Services";
+import Portfolio from "./Portfolio";
 
 const Nav = () => {
 
@@ -23,8 +25,8 @@ const Nav = () => {
 
 
   return (
-    <div>
-      <div className="navbar bg-[#1D1D1D] w-full ">
+    <div className=" ">
+      <div className="navbar bg-[#1D1D1D] w-full  lg:pr-[290px] lg:fixed z-10 bg-opacity-30 text-white">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -72,10 +74,10 @@ const Nav = () => {
          <Skill/>
       </section>
       <section id="service" className="">
-        <h1 className="text-4xl">Services Section</h1>
+         <Services/>
       </section>
       <section id="portfolio" className="">
-        <h1 className="text-4xl">Portfolio</h1>
+        <Portfolio/>
       </section>
       <section id="contact" className="">
         <h1 className="text-4xl">Contact Section</h1>

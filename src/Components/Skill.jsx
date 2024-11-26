@@ -19,7 +19,7 @@ const Skill = () => {
   return (
     <div className="skills-slider-container">
       {/* Title */}
-      <h2 className="slider-title py-10">My Skills</h2>
+      <h2 className=" font-bold text-white py-10 text-[48px]">My Skills</h2>
 
       {/* Slider */}
       <div className="slider-wrapper">

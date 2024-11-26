@@ -6,7 +6,7 @@ const About = () => {
         <div className="lg:flex items-center py-10 justify-between">
 
             <div>
-                <div className="relative w-[380px] h-[380px]">
+                <div className="relative w-[523px] h-[705px]">
                     {/* Triangle Outline */}
                     <svg
                         width="100%"
@@ -26,7 +26,7 @@ const About = () => {
 
 
                     {/* Fixed Profile Image */}
-                    <div className="absolute w-[360px] h-[360px]  overflow-hidden top-[0px] left-[10px]">
+                    <div className="absolute w-[550px] h-[720px]  overflow-hidden top-[-140px] bottom-44 left-[10px]">
                         <img
                             src={banner}
                             alt="Profile"
@@ -38,7 +38,7 @@ const About = () => {
 
 
             <div className='text-white'>
-                <h1 className='text-4xl font-semibold items-start'>About Me</h1>
+                <h1 className='text-[48px] font-bold items-start'>About Me</h1>
 
                 <p className='space-y-4 pt-10'>Hi, I sm <span className='font-bold text-[#FD7615]'>Md. Isme Ajam (Tushar)</span>, a passionate web developer with over 05 <br />
                     years of experience in creating innovative and user-friendly websites. My <br /> journey began with a fascination for coding and has since evolved into a <br />dedicated career in web development. I thrive on turning complex <br /> problems into elegant solutions and am committed to delivering high- <br />quality work that exceeds expectations.</p>
